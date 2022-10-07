@@ -1,0 +1,27 @@
+{
+  "name": "ps-attendance-backend",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "mcpeblocker",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "prisma": "prisma"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prisma": "^4.4.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "prisma": {
+    "seed": "node ./prisma/seed.js"
+  }
+}

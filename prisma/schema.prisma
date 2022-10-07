@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Tarbiyachi, O'qituvchi, Admin
+model User {
+  id       Int     @id() @default(autoincrement())
+  role     Role
+  name     String
+  username String  @unique
+  password String
+  class    Class?
+  extras   Extra[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+}
+
+enum Role {
+  ADMIN
+  TEACHER
+  MENTOR
+}
+
+// Sinf
+model Class {
+  id       Int       @id @default(autoincrement())
+  grade    Int
+  mentor   User      @relation(fields: [mentorId], references: [id])
+  mentorId Int       @unique()
+  students Student[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  extras    Extra[]
+}
+
+// O'quvchi
+model Student {
+  id             Int             @id @default(autoincrement())
+  class          Class           @relation(fields: [classId], references: [id])
+  classId        Int
+  participations Participation[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+}
+
+// To'garak
+model Extra {
+  id        Int    @id @default(autoincrement())
+  name      String
+  teacher   User   @relation(fields: [teacherId], references: [id])
+  teacherId Int
+  class     Class  @relation(fields: [classId], references: [id])
+  classId   Int
+
+  // Time for extra
+  day            Day
+  hour           Int
+  minute         Int
+  participations Participation[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+}
+
+enum Day {
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
+  SUNDAY
+}
+
+// Qatnashganlik
+model Participation {
+  id         Int        @id @default(autoincrement())
+  student    Student    @relation(fields: [studentId], references: [id])
+  studentId  Int
+  extra      Extra      @relation(fields: [extraId], references: [id])
+  extraId    Int
+  attendance Attendance
+  comment    String
+
+  // Date
+  createdAt DateTime @default(now()) @map("created_at")
+}
+
+enum Attendance {
+  YES
+  NO
+  LATE
+  EXCUSE
+}
