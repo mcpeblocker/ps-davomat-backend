@@ -4,7 +4,7 @@ const config = require("../utils/config");
 
 module.exports = async (req, res, next) => {
   const bearer = req.header("Authorization");
-  if (!bearer.startsWith("Bearer ")) {
+  if (!bearer?.startsWith("Bearer ")) {
     return res.status(401).json({ message: "You must be authorized. " });
   }
   const token = bearer.substring(7, bearer.length);

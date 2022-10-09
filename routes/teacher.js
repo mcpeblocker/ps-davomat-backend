@@ -13,19 +13,37 @@ router.get("/me", (req, res) => {
   res.status(200).json({ user: req.user });
 });
 
-// Class info
-router.get("/class", async (req, res) => {
-  const group = await db.class.findFirst({
-    where: { mentorId: req.user.id },
-    include: { students: true, extras: true },
+router.get("/confirmations", async (req, res) => {
+  const extra = await db.extra.findFirst({ where: { teacherId: req.user.id } });
+  const participations = await db.participation.findMany({
+    where: {
+      AND: [
+        {
+          confirmed: false,
+        },
+        {
+          extraId: extra.id,
+        },
+      ],
+    },
+    select: {
+      student: {
+        select: {
+          name: true,
+          class: {
+            select: { grade: true },
+          },
+        },
+      },
+      extra: {
+        select: { name: true },
+      },
+      attendance: true,
+      comment: true,
+    },
   });
-  if (!group) {
-    return res.status(404).json({
-      message: "You don't have any class ",
-    });
-  }
   res.status(200).json({
-    class: group,
+    participations,
   });
 });
 
