@@ -2,6 +2,7 @@ const express = require("express");
 const db = require("../database");
 const auth = require("../middlewares/auth");
 const isTeacher = require("../middlewares/isTeacher");
+const { getWeekDay } = require("../utils/date");
 
 const router = express.Router();
 
@@ -13,40 +14,43 @@ router.get("/me", (req, res) => {
   res.status(200).json({ user: req.user });
 });
 
-router.get("/confirmations", async (req, res) => {
-  const extras = await db.extra.findMany({ where: { teacherId: req.user.id } });
-  const participations = await db.participation.findMany({
+router.get("/extras", async (req, res) => {
+  const weekDay = getWeekDay();
+  const extras = await db.extra.findMany({
     where: {
       AND: [
         {
-          confirmed: false,
+          teacherId: req.user.id,
         },
         {
-          extraId: {
-            in: extras.map((e) => e.id),
-          },
+          day: weekDay,
         },
       ],
     },
-    select: {
-      student: {
-        select: {
-          name: true,
-          class: {
-            select: { grade: true },
-          },
+    include: {
+      class: {
+        include: {
+          students: true,
         },
       },
-      extra: {
-        select: { name: true },
-      },
-      attendance: true,
-      comment: true,
     },
   });
   res.status(200).json({
-    participations,
+    extras,
   });
+});
+
+router.post("/confirm", async (req, res) => {
+  const { participations } = req.body;
+  const created = [];
+  for (let data of participations) {
+    try {
+      data.createdById = req.user.id;
+      const participation = await db.participation.create({ data });
+      created.push(participation);
+    } catch (err) {}
+  }
+  res.status(200).json({ participations: created });
 });
 
 module.exports = router;

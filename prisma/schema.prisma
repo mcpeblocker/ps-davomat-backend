@@ -20,7 +20,8 @@ model User {
   class    Class?
   extras   Extra[]
 
-  createdAt DateTime @default(now()) @map("created_at")
+  createdAt      DateTime        @default(now()) @map("created_at")
+  participations Participation[]
 }
 
 enum Role {
@@ -89,7 +90,9 @@ model Participation {
   extraId    Int
   attendance Attendance
   comment    String?
-  confirmed  Boolean    @default(false)
+
+  createdBy   User @relation(fields: [createdById], references: [id])
+  createdById Int  @map("created_by_id")
 
   // Date
   createdAt DateTime @default(now()) @map("created_at")

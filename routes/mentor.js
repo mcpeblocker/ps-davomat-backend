@@ -45,6 +45,7 @@ router.post("/confirm", async (req, res) => {
   const created = [];
   for (let data of participations) {
     try {
+      data.createdById = req.user.id;
       const participation = await db.participation.create({ data });
       created.push(participation);
     } catch (err) {}

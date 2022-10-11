@@ -33,4 +33,23 @@ router.get("/students", async (req, res) => {
   res.status(200).json({ students });
 });
 
+router.get("/participations", async (req, res) => {
+  const participations = await db.participation.findMany({
+    include: {
+      student: {
+        include: {
+          class: true,
+        },
+      },
+      extra: {
+        include: {
+          class: true,
+        },
+      },
+      createdBy: true,
+    },
+  });
+  res.status(200).json({ participations });
+});
+
 module.exports = router;
