@@ -14,7 +14,7 @@ router.get("/me", (req, res) => {
 });
 
 router.get("/confirmations", async (req, res) => {
-  const extra = await db.extra.findFirst({ where: { teacherId: req.user.id } });
+  const extras = await db.extra.findMany({ where: { teacherId: req.user.id } });
   const participations = await db.participation.findMany({
     where: {
       AND: [
@@ -22,7 +22,9 @@ router.get("/confirmations", async (req, res) => {
           confirmed: false,
         },
         {
-          extraId: extra.id,
+          extraId: {
+            in: extras.map((e) => e.id),
+          },
         },
       ],
     },

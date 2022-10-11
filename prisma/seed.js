@@ -47,6 +47,14 @@ const extras = [
     hour: 17,
     minute: 00,
   },
+  {
+    name: "Fizika",
+    teacherId: 3,
+    classId: 1,
+    day: "MONDAY",
+    hour: 17,
+    minute: 00,
+  },
 ];
 
 async function main() {
