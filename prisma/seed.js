@@ -12,32 +12,7 @@ const students = require("./students.json");
 
 const users = [...mentors, ...teachers, ...admins];
 
-const extras = [
-  {
-    name: "Musiqa",
-    teacherId: 3,
-    classId: 1,
-    day: "SUNDAY",
-    hour: 17,
-    minute: 00,
-  },
-  {
-    name: "Fizika",
-    teacherId: 3,
-    classId: 1,
-    day: "MONDAY",
-    hour: 17,
-    minute: 00,
-  },
-  {
-    name: "Fizika",
-    teacherId: 3,
-    classId: 1,
-    day: "TUESDAY",
-    hour: 17,
-    minute: 00,
-  },
-];
+const extras = require('./extras.json');
 
 async function main() {
   console.log("Start seeding...");
