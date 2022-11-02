@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Madina Masharipova",
+    "username": "masharipova.m",
+    "password": "7SvGmj",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Farhod Allaberganov",
+    "username": "allaberganov.f",
+    "password": "CHL13u",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Oybek Abdullayev",
+    "username": "abdullayev.o",
+    "password": "aOCRAe",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Sohiba Babanazarova",
+    "username": "babanazarova.s",
+    "password": "rPLTOx",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Bunyod Xaliqberdiyev",
+    "username": "xaliqberdiyev.b",
+    "password": "bNTz1t",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Munis Kadamov",
+    "username": "kadamov.m",
+    "password": "Son4Cu",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Baxtiyor Matniyozov",
+    "username": "matniyozov.b",
+    "password": "ppEJDm",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Madina Otayeva",
+    "username": "otayeva.m",
+    "password": "Oqf5U2",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Azamat Matkarimov",
+    "username": "matkarimov.a",
+    "password": "9g5H5K",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Sarvar Sharipov",
+    "username": "sharipov.s",
+    "password": "kbgr3K",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Muyassar Polvonova",
+    "username": "polvonova.m",
+    "password": "dlSTWm",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Marhabo Davlatova",
+    "username": "davlatova.m",
+    "password": "0X1YST",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Hamza Otayev",
+    "username": "otayev.h",
+    "password": "8pGz5Q",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Islombek Jumaniyozov",
+    "username": "jumaniyozov.i",
+    "password": "7nS6HZ",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Shoxrux Madrimov",
+    "username": "madrimov.sh",
+    "password": "XuXy0a",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Zafar Ismoilov",
+    "username": "ismoilov.z",
+    "password": "jQAQVk",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Farrux Xakimov",
+    "username": "xakimov.f",
+    "password": "K4MbcJ",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Nilufar Babajanova",
+    "username": "babajanova.n",
+    "password": "rdePAB",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Sanjar Iskandarov",
+    "username": "iskandarov.s",
+    "password": "wyVYEU",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Vaisbek Atanazarov",
+    "username": "atanazarov.v",
+    "password": "rk1yke",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Jasur Qurbonov",
+    "username": "qurbonov.j",
+    "password": "iYcynp",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Akbar Yusupov",
+    "username": "yusupov.a",
+    "password": "vH1OHS",
+    "role": "TEACHER"
+  },
+  {
+    "name": "San'at Xudoyberganov",
+    "username": "xudoyberganov.s",
+    "password": "AlRu3l",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Adolat Allaberganova",
+    "username": "allaberganova.a",
+    "password": "xA5huA",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Bekzod Turdiyev",
+    "username": "turdiyev.b",
+    "password": "8XtOG7",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Yullrich Eugene Cloette",
+    "username": "y.cloette",
+    "password": "HY9tDF",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Zebedayo Kiloosi Kakai Wasula",
+    "username": "k.wasula",
+    "password": "VF7olZ",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Adel Khan",
+    "username": "a.khan",
+    "password": "P2TNiK",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Claire Marie Calusin",
+    "username": "c.marie",
+    "password": "TG8UNk",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Mogano Ivy",
+    "username": "m.ivy",
+    "password": "HaaQIr",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Anthony del Rosario",
+    "username": "a.rosario",
+    "password": "3wOyGr",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Abasolo Reyno Jison",
+    "username": "a.reyno",
+    "password": "YD9txo",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Donovan Benedict Solomons",
+    "username": "d.benedict",
+    "password": "IhPADx",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Abbey Nicole Marsden",
+    "username": "a.marsden",
+    "password": "5NzHlK",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Stephen Paul Gruman",
+    "username": "s.gruman",
+    "password": "zuBMi5",
+    "role": "TEACHER"
+  },
+  {
+    "name": "Adrian Peter Russell-Bishop",
+    "username": "a.russell-bishop",
+    "password": "u4SYYC",
+    "role": "TEACHER"
+  }
+]

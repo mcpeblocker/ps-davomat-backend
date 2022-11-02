@@ -3,40 +3,14 @@ const bcrypt = require("bcryptjs");
 
 const client = new PrismaClient();
 
-const users = [
-  {
-    name: "Alisher Ortiqov",
-    username: "mcpeblocker",
-    password: "okey",
-    role: "ADMIN",
-  },
-  {
-    name: "Yo'ldoshbek Xo'jayev",
-    username: "khojayev12",
-    password: "okey",
-    role: "MENTOR",
-  },
-  {
-    name: "Islomong",
-    username: "islomxoja",
-    password: "okey",
-    role: "TEACHER",
-  },
-];
+const mentors = require("./mentors.json");
+const teachers = require("./teachers.json");
+const admins = require("./admins.json");
 
-const groups = [
-  {
-    grade: 11,
-    mentorId: 2,
-  },
-];
+const groups = require("./classes.json");
+const students = require("./students.json");
 
-const students = [
-  {
-    name: "Ollayor Masharipov",
-    classId: 1,
-  },
-];
+const users = [...mentors, ...teachers, ...admins];
 
 const extras = [
   {
