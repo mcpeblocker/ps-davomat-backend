@@ -11,15 +11,19 @@ module.exports = async (req, res, next) => {
   if (!token) {
     return res.status(401).json({ message: "You must be authorized." });
   }
-  const { userId } = jwt.verify(token, config.jwtSecret);
-  if (!userId) {
+  try {
+    const { userId } = jwt.verify(token, config.jwtSecret);
+    if (!userId) {
+      return res.status(401).json({ message: "Invalid or expired token." });
+    }
+    const user = await db.user.findUnique({ where: { id: userId } });
+    if (!user) {
+      return res.status(401).json({ message: "Authorized user not found." });
+    }
+    delete user.password;
+    req.user = user;
+    next();
+  } catch (err) {
     return res.status(401).json({ message: "Invalid or expired token." });
   }
-  const user = await db.user.findUnique({ where: { id: userId } });
-  if (!user) {
-    return res.status(401).json({ message: "Authorized user not found." });
-  }
-  delete user.password;
-  req.user = user;
-  next();
 };
