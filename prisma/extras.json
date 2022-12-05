@@ -1,10 +1,787 @@
 [
   {
-    "name": "Fizika",
-    "teacherId": 3,
-    "classId": 1,
-    "day": "MONDAY",
-    "hour": 17,
-    "minute": 0
+      "name": "English",
+      "teacherId": 2,
+      "classId": 1,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 21,
+      "classId": 1,
+      "day": "MONDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 21,
+      "classId": 1,
+      "day": "MONDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "ICT",
+      "teacherId": 3,
+      "classId": 1,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "History",
+      "teacherId": 37,
+      "classId": 1,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Zakovat Club",
+      "teacherId": 9,
+      "classId": 1,
+      "day": "TUESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Robotics",
+      "teacherId": 21,
+      "classId": 1,
+      "day": "TUESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Math",
+      "teacherId": 16,
+      "classId": 1,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Mother Tongue",
+      "teacherId": 1,
+      "classId": 1,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Drama Club",
+      "teacherId": 7,
+      "classId": 1,
+      "day": "WEDNESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Football/Volleyball",
+      "teacherId": 15,
+      "classId": 1,
+      "day": "WEDNESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Science",
+      "teacherId": 24,
+      "classId": 1,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "GP",
+      "teacherId": 28,
+      "classId": 1,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Russian",
+      "teacherId": 18,
+      "classId": 1,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 23,
+      "classId": 1,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 25,
+      "classId": 1,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (girls)",
+      "teacherId": 6,
+      "classId": 1,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Art club",
+      "teacherId": 8,
+      "classId": 1,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 6,
+      "classId": 1,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "ICT",
+      "teacherId": 3,
+      "classId": 2,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Mother tongue",
+      "teacherId": 4,
+      "classId": 2,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 21,
+      "classId": 2,
+      "day": "MONDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Robotics",
+      "teacherId": 14,
+      "classId": 2,
+      "day": "MONDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Math",
+      "teacherId": 33,
+      "classId": 2,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "History",
+      "teacherId": 17,
+      "classId": 2,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Russian",
+      "teacherId": 18,
+      "classId": 2,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Zakovat",
+      "teacherId": 9,
+      "classId": 2,
+      "day": "TUESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 26,
+      "classId": 2,
+      "day": "TUESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Science",
+      "teacherId": 26,
+      "classId": 2,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "GP",
+      "teacherId": 28,
+      "classId": 2,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Art Club",
+      "teacherId": 8,
+      "classId": 2,
+      "day": "WEDNESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Football/Voleyball",
+      "teacherId": 15,
+      "classId": 2,
+      "day": "WEDNESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "English",
+      "teacherId": 2,
+      "classId": 2,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 23,
+      "classId": 2,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (girls)",
+      "teacherId": 6,
+      "classId": 2,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Drama Club",
+      "teacherId": 7,
+      "classId": 2,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 6,
+      "classId": 2,
+      "day": "THURSDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "English",
+      "teacherId": 30,
+      "classId": 3,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 21,
+      "classId": 3,
+      "day": "MONDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Science",
+      "teacherId": 26,
+      "classId": 3,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Mother tongue",
+      "teacherId": 4,
+      "classId": 3,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Drama club",
+      "teacherId": 7,
+      "classId": 3,
+      "day": "TUESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Math",
+      "teacherId": 32,
+      "classId": 3,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 22,
+      "classId": 3,
+      "day": "WEDNESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "ICT",
+      "teacherId": 3,
+      "classId": 3,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "History",
+      "teacherId": 37,
+      "classId": 3,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Robotics",
+      "teacherId": 14,
+      "classId": 3,
+      "day": "THURSDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Art club",
+      "teacherId": 8,
+      "classId": 3,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Phy",
+      "teacherId": 5,
+      "classId": 4,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Chem",
+      "teacherId": 34,
+      "classId": 4,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Drama Club",
+      "teacherId": 7,
+      "classId": 4,
+      "day": "MONDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 21,
+      "classId": 4,
+      "day": "MONDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Math",
+      "teacherId": 32,
+      "classId": 4,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Zakovat Club",
+      "teacherId": 9,
+      "classId": 4,
+      "day": "TUESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 6,
+      "classId": 4,
+      "day": "TUESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "English",
+      "teacherId": 29,
+      "classId": 4,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "History",
+      "teacherId": 17,
+      "classId": 4,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Football/Volleyball",
+      "teacherId": 15,
+      "classId": 4,
+      "day": "WEDNESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Robotics",
+      "teacherId": 14,
+      "classId": 4,
+      "day": "WEDNESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "CS",
+      "teacherId": 9,
+      "classId": 4,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Bio",
+      "teacherId": 35,
+      "classId": 4,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Art club",
+      "teacherId": 8,
+      "classId": 4,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 23,
+      "classId": 4,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 21,
+      "classId": 4,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 25,
+      "classId": 4,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 22,
+      "classId": 4,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Drama Club",
+      "teacherId": 7,
+      "classId": 4,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "English",
+      "teacherId": 29,
+      "classId": 5,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Swimming (boys)",
+      "teacherId": 26,
+      "classId": 5,
+      "day": "MONDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 21,
+      "classId": 5,
+      "day": "MONDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "CS",
+      "teacherId": 9,
+      "classId": 5,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Zakovat",
+      "teacherId": 9,
+      "classId": 5,
+      "day": "TUESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Art Club",
+      "teacherId": 8,
+      "classId": 5,
+      "day": "TUESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Math",
+      "teacherId": 19,
+      "classId": 5,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "B&E",
+      "teacherId": 38,
+      "classId": 5,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Football/Voleyball",
+      "teacherId": 15,
+      "classId": 2,
+      "day": "WEDNESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Drama Club",
+      "teacherId": 7,
+      "classId": 5,
+      "day": "WEDNESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Physics",
+      "teacherId": 27,
+      "classId": 5,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Biology",
+      "teacherId": 12,
+      "classId": 5,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 23,
+      "classId": 5,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 25,
+      "classId": 5,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  
+  {
+      "name": "Robotics",
+      "teacherId": 14,
+      "classId": 5,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Phy",
+      "teacherId": 31,
+      "classId": 6,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Bio",
+      "teacherId": 35,
+      "classId": 6,
+      "day": "MONDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Art club",
+      "teacherId": 8,
+      "classId": 6,
+      "day": "MONDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Math",
+      "teacherId": 13,
+      "classId": 6,
+      "day": "TUESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Zakovat Club",
+      "teacherId": 9,
+      "classId": 6,
+      "day": "TUESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "CS",
+      "teacherId": 36,
+      "classId": 6,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Chem",
+      "teacherId": 11,
+      "classId": 6,
+      "day": "WEDNESDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Football/Volleyball",
+      "teacherId": 15,
+      "classId": 6,
+      "day": "WEDNESDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Swimming",
+      "teacherId": 6,
+      "classId": 6,
+      "day": "WEDNESDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "English",
+      "teacherId": 10,
+      "classId": 6,
+      "day": "THURSDAY",
+      "hour": 16,
+      "minute": 15
+  },
+  {
+      "name": "Drama Club",
+      "teacherId": 7,
+      "classId": 6,
+      "day": "THURSDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Robotics",
+      "teacherId": 14,
+      "classId": 6,
+      "day": "SUNDAY",
+      "hour": 17,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 23,
+      "classId": 6,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 21,
+      "classId": 6,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 25,
+      "classId": 6,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
+  },
+  {
+      "name": "Milliy musiqa",
+      "teacherId": 22,
+      "classId": 6,
+      "day": "SUNDAY",
+      "hour": 18,
+      "minute": 5
   }
 ]

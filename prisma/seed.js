@@ -34,6 +34,7 @@ async function main() {
   }
 
   for (let data of extras) {
+    data.teacherId += 7;
     const extra = await client.extra.create({ data });
     console.log(`Extra created with id ${extra.id}`);
   }
